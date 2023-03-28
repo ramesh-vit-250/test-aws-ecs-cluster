@@ -5,7 +5,7 @@ First checked through the DockerFile by running it locally where docker is insta
 run through the following commands
   - docker build -t sample-image .
 
-# once the image is created, validated the image and then have run through the docker image and validated its status
+Once the image is created, validated the image and then have run through the docker image and validated its status
 - docker run -p 3000:3000 sample-image
 
 validated it using http://localhost:3000/ as well
